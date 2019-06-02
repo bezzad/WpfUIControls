@@ -1,0 +1,18 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Controls="clr-namespace:Controls;assembly=Controls" x:Class="TestUIElements.MainWindow"
+        Title="MainWindow" Height="350" Width="525">
+    
+    <Grid RenderTransformOrigin="0.503,0.423">
+        
+        <Button Content="Button" Margin="44,123,298,138" Click="Button_Click" Template="{DynamicResource GlassButton}"/>
+        <Controls:RestoreSizeButton HorizontalAlignment="Left" Height="50" Margin="402,10,0,0" VerticalAlignment="Top" Width="50"/>
+        <Controls:CloseButton HorizontalAlignment="Left" Height="40" Margin="457,10,0,0" VerticalAlignment="Top" Width="45" ScrollViewer.VerticalScrollBarVisibility="Disabled"/>
+        <Controls:MinimizeButton HorizontalAlignment="Left" Height="50" Margin="347,10,0,0" VerticalAlignment="Top" Width="50"/>
+        <Controls:DvTextBox HorizontalAlignment="Left" Margin="176,223,0,0" TextWrapping="Wrap" VerticalAlignment="Top" IsNumerical="True" ThousandsSplitter="True"/>
+
+    </Grid>
+</Window>
+
+    
