@@ -68,6 +68,9 @@
     <Compile Include="MinimizeButton.xaml.cs">
       <DependentUpon>MinimizeButton.xaml</DependentUpon>
     </Compile>
+    <Compile Include="PlayPauseButtonControl.xaml.cs">
+      <DependentUpon>PlayPauseButtonControl.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -110,6 +113,10 @@
     <Page Include="MinimizeButton.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PlayPauseButtonControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="RestoreSizeButton.xaml">
       <Generator>MSBuild:Compile</Generator>
