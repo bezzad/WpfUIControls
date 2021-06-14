@@ -30,9 +30,9 @@
                                     <VisualStateGroup.Transitions>
                                         <VisualTransition From="*" To="Checked">
                                             <Storyboard>
-                                                <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(RotateTransform.Angle)" Storyboard.TargetName="rectangle1">
-                                                    <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="90"/>
-                                                </DoubleAnimationUsingKeyFrames>
+                                                <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="rectangle1">
+                                                     <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="90"/>
+                                                 </DoubleAnimationUsingKeyFrames>
                                                  <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="rectangle1">  
                                                      <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="-9"/>  
                                                  </DoubleAnimationUsingKeyFrames>  
@@ -53,7 +53,7 @@
                                         </VisualTransition>
                                         <VisualTransition From="Checked" To="Unchecked">
                                             <Storyboard>
-                                                <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(RotateTransform.Angle)" Storyboard.TargetName="rectangle1">
+                                                <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="rectangle1">
                                                     <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="35"/>
                                                 </DoubleAnimationUsingKeyFrames>
                                                 <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="rectangle1">
