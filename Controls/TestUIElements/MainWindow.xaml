@@ -11,7 +11,10 @@
         <Controls:CloseButton HorizontalAlignment="Left" Height="40" Margin="457,10,0,0" VerticalAlignment="Top" Width="45" ScrollViewer.VerticalScrollBarVisibility="Disabled"/>
         <Controls:MinimizeButton HorizontalAlignment="Left" Height="50" Margin="347,10,0,0" VerticalAlignment="Top" Width="50"/>
 
-        <Controls:PlayPauseButtonControl HorizontalAlignment="Left" Height="50" Margin="241,10,0,0" VerticalAlignment="Top" Width="50"/>
+        <ToggleButton Style="{StaticResource PlayPauseToggleButton}" 
+                      HorizontalAlignment="Left" Margin="241,10,0,0" 
+                      VerticalAlignment="Top" 
+                      Foreground="Red" Background="Transparent" BorderBrush="Gray"/>
         <Controls:DvTextBox HorizontalAlignment="Left" Margin="176,223,0,0" TextWrapping="Wrap" VerticalAlignment="Top" IsNumerical="True" ThousandsSplitter="True"/>
 
     </Grid>

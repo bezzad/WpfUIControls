@@ -68,9 +68,6 @@
     <Compile Include="MinimizeButton.xaml.cs">
       <DependentUpon>MinimizeButton.xaml</DependentUpon>
     </Compile>
-    <Compile Include="PlayPauseButtonControl.xaml.cs">
-      <DependentUpon>PlayPauseButtonControl.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -114,7 +111,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="PlayPauseButtonControl.xaml">
+    <Page Include="Assets\PlayPauseToggleButtonStyle.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
